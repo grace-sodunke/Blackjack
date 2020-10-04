@@ -1,0 +1,38 @@
+.game-container {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    border: 2px dashed black; 
+}
+.row-1, .row-2, .row-3 {
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.row-1, .row-2  {
+    background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Dark_green.svg/768px-Dark_green.svg.png') center;
+    color: #ffffff;
+}
+.row-1 div { 
+    padding: 10px;
+    height: 350px;
+    flex: 1;
+    text-align: center;
+}
+.row-1 img {
+    width: 25%;
+    padding: 10px;
+}
+.row-2 div {
+    padding: 10px;
+}
+.row-2 button {
+    padding: 10px;
+}
+table, th, td {
+    border: 1px solid black;
+    padding: 5px;
+    font-size: 1.2em;
+}
